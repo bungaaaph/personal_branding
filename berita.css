@@ -1,0 +1,48 @@
+:root{
+    --darkyellow: #F3B812;
+    --yellow: #FED323;
+    --red: #E53C38;
+    --redd: #D11D27;
+    --darkred: #A90011;
+    --white: #FFFFFF;
+    --bwhite: #FFFAEF;
+    --agrey: #F3F3F3;
+}
+
+/* NAVBARRRRR */
+
+.navbar{
+    background-color: var(--darkred);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.navbar ul li a{
+    color: #F3B812;
+    font-size: 15px;
+    font-weight: 525;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0,5px;
+}
+
+/* ISIIII */
+
+.banner{
+    background: linear-gradient(rgba(161, 0, 0, 0.797),rgba(0, 0, 0, 0.617)), url(image/kopii2.jpeg) 
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 100px;
+    color: #F3B812;    
+}
+
+.card{
+height: 20rem;
+}
+
+footer{
+    background-color: #A90011;
+}
